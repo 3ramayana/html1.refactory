@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #023047;
+  /* padding: 30px; */
+
+}
+
+.header-nav {
+  display: flex;
+
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 30px 20px;
+}
+
+.header-nav a:hover {
+  background-color: #034261;
+}
+
+.jumbotron {
+  height: 50vh;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.main {
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+}
+
+.blogs {
+  width: 70%;
+}
+
+.post {
+  /* border: 2px solid black; */
+  box-shadow: 2px 2px 5px #E2E2E2;
+  border-radius: 15px;
+  max-height: 500px;
+  display: flex;
+  padding: 20px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.post-img img {
+  max-width: 400px;
+}
+
+.post-content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-title {
+  color: #FB8500;
+}
+
+.post-author {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.post-author span {
+  font-weight: bold;
+}
+
+.post-text {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.post-btn {
+  margin-top: 20px;
+}
+
+.post-btn a {
+  text-decoration: none;
+  color: white;
+  background-color: #FB8500;
+  padding: 5px 15px;
+  border-radius: 20px;
+  transition: background-color 0.5s;
+}
+
+.post-btn a:hover {
+  background-color: #FFB703;
+}
+
+.profile {
+  width: 25%;
+  margin-left: 50px;
+  background-color: #8ECAE6;
+  max-height: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.profile h3 {
+  color: white;
+}
+
+.profile img {
+  display: block;
+  border-radius: 50%;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.profile p {
+  font-size: 15px;
+  color: #474747;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #023047;
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  margin-bottom: 30px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 0 20px;
+  transition: color 0.5s;
+}
+
+.social-media a:hover {
+  color: #FFB703;
+}
+
+.social-media i {
+  margin-right: 10px;
+}
